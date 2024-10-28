@@ -1,0 +1,17 @@
+Package: lrps
+Title: Pass power/sample size/ event probability under Mental-logrank
+        test.
+Version: 0.0.0.1000
+Authors@R: c(person("Henry", "Li",, "henry.li@unc.edu",role = c("aut", "cre")) ,person("Eric", "Kawaguchi", , "ekawaguc@usc.edu", role = "aut"))
+Description: Calculates event probability/power or sample size under the Mantel-logrank test. Or computes power for a covariate interaction. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2024-01-05 09:26:16 UTC; Boraz
+Author: Henry Li [aut, cre],
+  Eric Kawaguchi [aut]
+Maintainer: Henry Li <henry.li@unc.edu>
